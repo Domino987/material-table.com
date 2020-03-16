@@ -1,7 +1,7 @@
 | Field                   | Type                                         | Default   | Description                                                                                                   |
 |:------------------------|:---------------------------------------------|:----------|:--------------------------------------------------------------------------------------------------------------|
 | cellStyle               | object or func                               |           | Cell cellStyle                                                                                                |
-| currencySetting         | object                                       |           | This field can be used when column type is currency.                                                          |
+| currencySetting         | { locale?: string, currencyCode?: string, minimumFractionDigits?: number, maximumFractionDigits?: number };                                       |           | This field can be used when column type is currency.                                                          |
 | customFilterAndSearch   | func                                         |           | This field can be used for overriding filter and search algorithm                                             |
 | customSort              | func                                         |           | This field can be used for overriding sort algorithm                                                          |
 | defaultFilter           | any                                          |           | Default Filter value for filtering column                                                                     |
